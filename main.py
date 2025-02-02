@@ -156,7 +156,7 @@ def show_home():
         # Centered and resized image using HTML
         st.markdown(
             "<div style='display: flex; justify-content: center;'>"
-            "<img src='assets/logo.png' width='150'>"
+          # "<img src='assets/logo.png' width='150'>"
             "</div>",
             unsafe_allow_html=True
         )
